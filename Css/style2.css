@@ -1,0 +1,42 @@
+.img-logo {
+  width: 14%;
+  /* color: #260c96; */
+  margin-top: 18px;
+  margin-left: 19px;
+  /* fill: #441f81; */
+}
+
+body {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../images/bgo .jpg");
+  color: #333;
+  direction: ltr;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 16px;
+}
+
+.login-form {
+  margin-bottom: 0px;
+  display: block;
+  margin-top: 0em;
+}
+
+.btn-login {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 24px 0 12px;
+  max-width: 50%;
+  width: 50%;
+  padding: 16px;
+  background: red;
+  color: white;
+  cursor: pointer;
+  text-transform: none;
+}

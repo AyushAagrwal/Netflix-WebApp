@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script> -->
+    <link
+      rel="shortcut icon"
+      href="images/netflix_icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./Css/style4.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="" />
+      </a>
+    </div>
+    <div class="sign-in">
+      <a href="sign_in.html">Sign In</a>
+    </div>
+    <div class="container">
+      <h1>Forgot Email/Password</h1>
+      <p id="p1">How would you like to reset your password?</p>
+      <label class="r1"> <input type="radio" name="only-one" />Email </label
+      ><br />
+      <label class="r2">
+        <input type="radio" name="only-one" />Text Message (SMS)
+      </label>
+      <p class="p1">
+        We will text you a verification code to reset your password. Message and
+        data rates may apply.
+      </p>
+      <!-- <div class="phone-no">
+        <input id="phone" type="tel" name="phone" />
+        <script>
+          const phoneInputField = document.querySelector("#phone");
+          const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript:
+              "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+          });
+        </script>
+      </div> -->
+      <input type="text" placeholder="name@example.com" />
+      <input type="submit" value="Email-me" />
+      <div class="content">
+        <p>
+          <a id="link" href="#">
+            I can't remember my email address or phone <br />
+            number.
+          </a>
+        </p>
+        <br />
+        <h2>
+          This page is protected by Google reCAPTCHA to ensure <br />
+          you're not a bot. Learn more.
+          <!-- <a href="#" id="learn-more">Learn more.</a> -->
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
